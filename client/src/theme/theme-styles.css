@@ -1,0 +1,179 @@
+:root {
+  /* Default theme variables (General Practice) */
+  --specialty-primary: #1a73e8;
+  --specialty-secondary: #edf5ff;
+  --specialty-accent: #34a853;
+  --specialty-success: #0f9d58;
+  --specialty-warning: #fbbc05;
+  --specialty-error: #ea4335;
+  --specialty-background: #ffffff;
+  --specialty-card: #f8f9fa;
+  --specialty-text: #202124;
+  --specialty-text-light: #5f6368;
+  
+  --specialty-font-heading: 'Helvetica Neue', Arial, sans-serif;
+  --specialty-font-body: 'Arial', sans-serif;
+  
+  --specialty-radius-small: 4px;
+  --specialty-radius-medium: 8px;
+  --specialty-radius-large: 12px;
+  
+  --specialty-shadow-card: 0 2px 5px rgba(0, 0, 0, 0.1);
+  --specialty-shadow-button: 0 1px 3px rgba(0, 0, 0, 0.12);
+  --specialty-shadow-header: 0 1px 3px rgba(0, 0, 0, 0.1);
+  
+  --specialty-transition: all 0.3s ease;
+}
+
+/* Dark mode theme modifications */
+.dark-theme {
+  --specialty-background: #121212;
+  --specialty-card: #1e1e1e;
+  --specialty-text: #e0e0e0;
+  --specialty-text-light: #a0a0a0;
+  --specialty-shadow-card: 0 2px 5px rgba(0, 0, 0, 0.3);
+  --specialty-shadow-button: 0 1px 3px rgba(0, 0, 0, 0.4);
+  --specialty-shadow-header: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Pediatrics Theme */
+.theme-pediatrics {
+  --specialty-primary: #00bcd4;
+  --specialty-secondary: #e0f7fa;
+  --specialty-accent: #ffca28;
+  --specialty-success: #26a69a;
+  --specialty-warning: #ffa000;
+  --specialty-error: #f44336;
+  --specialty-background: #ffffff;
+  --specialty-card: #f5f5f5;
+  --specialty-text: #37474f;
+  --specialty-text-light: #607d8b;
+  
+  --specialty-font-heading: 'Comic Sans MS', 'Comic Sans', cursive;
+  --specialty-font-body: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+  
+  --specialty-radius-small: 8px;
+  --specialty-radius-medium: 12px;
+  --specialty-radius-large: 20px;
+  
+  --specialty-shadow-card: 0 3px 10px rgba(0, 188, 212, 0.15);
+  --specialty-shadow-button: 0 2px 5px rgba(0, 188, 212, 0.2);
+  --specialty-shadow-header: 0 2px 8px rgba(0, 188, 212, 0.1);
+}
+
+/* Cardiology Theme */
+.theme-cardiology {
+  --specialty-primary: #e91e63;
+  --specialty-secondary: #fce4ec;
+  --specialty-accent: #ff5722;
+  --specialty-success: #43a047;
+  --specialty-warning: #ff9800;
+  --specialty-error: #d50000;
+  --specialty-background: #ffffff;
+  --specialty-card: #fafafa;
+  --specialty-text: #424242;
+  --specialty-text-light: #757575;
+  
+  --specialty-font-heading: 'Georgia', serif;
+  --specialty-font-body: 'Roboto', 'Helvetica', Arial, sans-serif;
+  
+  --specialty-radius-small: 4px;
+  --specialty-radius-medium: 6px;
+  --specialty-radius-large: 8px;
+  
+  --specialty-shadow-card: 0 2px 8px rgba(233, 30, 99, 0.12);
+  --specialty-shadow-button: 0 1px 5px rgba(233, 30, 99, 0.2);
+  --specialty-shadow-header: 0 1px 4px rgba(233, 30, 99, 0.1);
+}
+
+/* Neurology Theme */
+.theme-neurology {
+  --specialty-primary: #673ab7;
+  --specialty-secondary: #ede7f6;
+  --specialty-accent: #3f51b5;
+  --specialty-success: #4caf50;
+  --specialty-warning: #ff9800;
+  --specialty-error: #f44336;
+  --specialty-background: #ffffff;
+  --specialty-card: #f5f5f5;
+  --specialty-text: #212121;
+  --specialty-text-light: #616161;
+  
+  --specialty-font-heading: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  --specialty-font-body: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  --specialty-radius-small: 2px;
+  --specialty-radius-medium: 4px;
+  --specialty-radius-large: 6px;
+  
+  --specialty-shadow-card: 0 2px 10px rgba(103, 58, 183, 0.1);
+  --specialty-shadow-button: 0 1px 4px rgba(103, 58, 183, 0.2);
+  --specialty-shadow-header: 0 1px 5px rgba(103, 58, 183, 0.08);
+}
+
+/* Dermatology Theme */
+.theme-dermatology {
+  --specialty-primary: #ff9800;
+  --specialty-secondary: #fff3e0;
+  --specialty-accent: #ff5722;
+  --specialty-success: #8bc34a;
+  --specialty-warning: #ffc107;
+  --specialty-error: #f44336;
+  --specialty-background: #ffffff;
+  --specialty-card: #fafafa;
+  --specialty-text: #3e2723;
+  --specialty-text-light: #795548;
+  
+  --specialty-font-heading: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+  --specialty-font-body: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  
+  --specialty-radius-small: 6px;
+  --specialty-radius-medium: 10px;
+  --specialty-radius-large: 16px;
+  
+  --specialty-shadow-card: 0 2px 8px rgba(255, 152, 0, 0.15);
+  --specialty-shadow-button: 0 1px 5px rgba(255, 152, 0, 0.2);
+  --specialty-shadow-header: 0 1px 4px rgba(255, 152, 0, 0.1);
+}
+
+/* Utility classes */
+.theme-text-primary {
+  color: var(--specialty-primary);
+}
+
+.theme-text-secondary {
+  color: var(--specialty-secondary);
+}
+
+.theme-bg-primary {
+  background-color: var(--specialty-primary);
+}
+
+.theme-bg-secondary {
+  background-color: var(--specialty-secondary);
+}
+
+.theme-border-primary {
+  border-color: var(--specialty-primary);
+}
+
+.theme-border-secondary {
+  border-color: var(--specialty-secondary);
+}
+
+/* Component overrides */
+.btn-theme-primary {
+  background-color: var(--specialty-primary);
+  color: white;
+}
+
+.btn-theme-secondary {
+  background-color: var(--specialty-secondary);
+  color: var(--specialty-primary);
+}
+
+.card-theme {
+  background-color: var(--specialty-card);
+  border-radius: var(--specialty-radius-medium);
+  box-shadow: var(--specialty-shadow-card);
+}
